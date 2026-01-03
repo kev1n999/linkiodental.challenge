@@ -10,8 +10,8 @@ const router = Router();
 
 router.use(verifyToken);
 
-router.post("/orders", createOrder);
-router.get("/orders", listOrders);
-router.patch("/orders/:id/advanced", advancedOrder);
+router.post("/", createOrder);
+router.get("/", listOrders);
+router.patch("/:id/advance", advancedOrder);
 
 export default router;
