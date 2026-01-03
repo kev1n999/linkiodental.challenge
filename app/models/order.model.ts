@@ -5,13 +5,13 @@ type serviceStatus = "PENDING" | "DONE";
 type orderState = "CREATED" | "ANALYSIS" | "COMPLETED";
 type orderStatus = "ACTIVE" | "DELETED";
 
-interface Service {
+export interface Service {
   name: string;
   value: number;
   status: serviceStatus;
 }
 
-interface OrderProps extends Document {
+export interface OrderProps extends Document {
   lab: string;
   patient: string;
   customer: string;

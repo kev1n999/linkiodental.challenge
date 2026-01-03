@@ -44,15 +44,9 @@ export async function userLogin(req: Request, res: Response) {
     return res.status(200).json({
       token,
     });
-  } catch (err: unknown) {
-    let message = "Não foi possível efetuar o login deste usuário!";
-
-    if (err instanceof Error) {
-      message = err.message;
-    }
-
+  } catch (err: any) {
     return res.status(401).json({
-      message: message,
+      message: "Não foi possível efetuar o login deste usuário!",
     });
   }
 }
