@@ -24,6 +24,11 @@ git clone https://github.com/kev1n999/order-management-challenge
 cd order/management-challenge
 ```
 
+3. Instale as dependências:
+```
+npm install
+``` 
+
 3. Configure as variáveis do ambiente:
 
 ```
