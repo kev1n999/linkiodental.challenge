@@ -29,7 +29,7 @@ cd order/management-challenge
 npm install
 ``` 
 
-3. Configure as variáveis do ambiente:
+3. Crie um .env na raiz do projeto e configure as variáveis do ambiente:
 
 ```
 SERVER_PORT=4000
