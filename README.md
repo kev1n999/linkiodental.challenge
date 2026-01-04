@@ -37,7 +37,10 @@ MONGO_URI=mongo-uri
 JWT_SECRET=jwt-secret
 ```
 
-4. Rode o servidor pelo comando: `npm run server`
+4. Rode o servidor pelo comando: 
+```
+npm run server
+``` 
 
 ## Rotas disponíveis
 
